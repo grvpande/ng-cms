@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@ng-cms/cms-admin": ["cms-admin/src/index.ts"],
-      "@ng-cms/cms-post": ["cms-post/src/index.ts"]
+      "@ng-cms/cms-post": ["cms-post/src/index.ts"],
+      "@ng-cms/shared/ui": ["shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
