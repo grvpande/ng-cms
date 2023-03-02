@@ -1,12 +1,9 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 /* eslint-disable */
 
 @Component({
   selector: 'ng-cms-nx-welcome',
-  standalone: true,
-  imports: [CommonModule],
   template: `
     <!--
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -436,7 +433,7 @@ import { CommonModule } from '@angular/common';
         <div id="welcome">
           <h1>
             <span> Hello there, </span>
-            Welcome ng-cms 👋
+            Welcome cms-view 👋
           </h1>
         </div>
 
