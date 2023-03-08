@@ -7,7 +7,8 @@
     "build": "nx build",
     "test": "nx test",
     "api": "json-server --watch db.json --port 3004",
-    "nx": "nx"
+    "nx": "nx",
+    "format": "prettier write ./src/**/*.ts"
   },
   "private": true,
   "dependencies": {
@@ -20,7 +21,9 @@
     "@angular/platform-browser": "~15.1.0",
     "@angular/platform-browser-dynamic": "~15.1.0",
     "@angular/router": "~15.1.0",
+    "@ngrx/effects": "^15.3.0",
     "@ngrx/store": "^15.3.0",
+    "@ngrx/store-devtools": "^15.3.0",
     "@nrwl/angular": "15.7.2",
     "json-server": "^0.17.2",
     "ngx-quill": "^20.0.1",

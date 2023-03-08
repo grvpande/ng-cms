@@ -1,0 +1,6 @@
+<h1>Post Listing</h1>
+<ng-container *ngIf="items$ | async as items">
+    <div *ngFor="let item of items">
+        {{ item.title }}
+    </div>
+</ng-container>
